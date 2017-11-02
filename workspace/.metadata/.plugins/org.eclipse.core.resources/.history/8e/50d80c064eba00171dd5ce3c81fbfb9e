@@ -1,0 +1,24 @@
+package Serveur;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.PrintStream;
+import java.net.Socket;
+
+public class ReceveurEnvoyeur extends Thread {
+	BufferedReader fluxentrant;
+	PrintStream fluxsortant;
+	int no;
+	public ReceveurEnvoyeur(Socket socket, int no) throws IOException
+	{
+		this.fluxentrant = new BufferedReader(socket);
+		this.fluxsortant = new PrintStream(socket.getOutputStream());
+		this.no = no;
+		
+	}
+	public void run()
+	{
+		
+	}
+
+}

@@ -1,0 +1,308 @@
+﻿La génération a démarré 19/10/2017 17:11:07.
+     1>Projet "c:\Users\erba2u\Documents\Visual Studio 2013\Projects\derive\derive\derive.vcxproj" sur le nœud 2 (Build cible(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Constante.cpp Expression.cpp Fois.cpp OpBinaire.cpp Plus.cpp TestVisiteurDerivee.cpp Variable.cpp
+         Variable.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2433: 'Constante::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(18): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant ','
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(21): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(25): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(25): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(25): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2433: 'Plus::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2327: 'OpBinaire::string' : n'est pas un nom de type, un membre static, ni un énumérateur
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2433: 'Fois::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2327: 'OpBinaire::string' : n'est pas un nom de type, un membre static, ni un énumérateur
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(18): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(18): error C2143: erreur de syntaxe : absence de ',' avant '*'
+         TestVisiteurDerivee.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2433: 'Variable::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2433: 'Constante::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(18): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant ','
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(21): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2433: 'Plus::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2433: 'Fois::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(33): error C2440: '=' : impossible de convertir de 'Variable *' en 'Expression *'
+                 Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(34): error C2440: '=' : impossible de convertir de 'Constante *' en 'Expression *'
+                 Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(35): error C2661: 'Plus::Plus' : aucune fonction surchargée ne nécessite 2 arguments
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(37): error C2440: '=' : impossible de convertir de 'Variable *' en 'Expression *'
+                 Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(38): error C2440: '=' : impossible de convertir de 'Constante *' en 'Expression *'
+                 Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(39): error C2661: 'Plus::Plus' : aucune fonction surchargée ne nécessite 2 arguments
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\testvisiteurderivee.cpp(41): error C2661: 'Fois::Fois' : aucune fonction surchargée ne nécessite 2 arguments
+         Plus.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2433: 'Variable::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2433: 'Constante::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(16): error C2504: 'OpBinaire' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2433: 'Fois::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(20): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(20): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.cpp(33): error C2664: 'const std::string Visiteur::visite(const Fois *) const' : impossible de convertir l'argument 1 de 'const Plus *const ' en 'const Variable *'
+                 Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+         OpBinaire.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2433: 'Variable::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2433: 'Constante::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(16): error C2504: 'OpBinaire' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2433: 'Plus::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(16): error C2504: 'OpBinaire' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2433: 'Fois::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+         Fois.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2433: 'Variable::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2433: 'Constante::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(16): error C2504: 'OpBinaire' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2433: 'Plus::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(21): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.cpp(32): error C2511: 'const std::string Fois::accepte(const Visiteur *) const' : impossible de trouver la fonction membre surchargée dans 'Fois'
+                 c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(15) : voir la déclaration de 'Fois'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.cpp(33): error C2671: 'Fois::accepte' : les fonctions membres static n'ont pas de pointeurs 'this'
+         Expression.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2433: 'Variable::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(17): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C2433: 'Constante::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(21): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(23): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.h(30): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(18): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant ','
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(21): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(25): error C2833: 'operator string' n'est pas un opérateur ou type reconnu
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(25): error C2059: erreur de syntaxe : 'newline'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(25): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2433: 'Plus::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2327: 'OpBinaire::string' : n'est pas un nom de type, un membre static, ni un énumérateur
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2433: 'Fois::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2327: 'OpBinaire::string' : n'est pas un nom de type, un membre static, ni un énumérateur
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2146: erreur de syntaxe : absence de ';' avant l'identificateur 'accepte'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): warning C4183: 'accepte' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+         Constante.cpp
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(9): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C2433: 'Variable::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(15): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\variable.h(24): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(18): error C2504: 'Expression' : classe de base non définie
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2143: erreur de syntaxe : absence de ';' avant ','
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(19): error C2238: jetons inattendus avant ';'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(21): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\opbinaire.h(43): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C2433: 'Plus::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\plus.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(18): error C2061: erreur de syntaxe : identificateur 'Expression'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2143: erreur de syntaxe : absence de ';' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C2433: 'Fois::Expression' : 'virtual' non autorisé sur les déclarations de données
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(25): warning C4183: 'clone' : type de retour manquant ; fonction membre retournant 'int' prise par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\fois.h(38): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(19): error C4430: spécificateur de type manquant - int est pris en compte par défaut. Remarque : C++ ne prend pas en charge int par défaut
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\visiteur.h(19): error C2143: erreur de syntaxe : absence de ',' avant '*'
+     1>c:\users\erba2u\documents\visual studio 2013\projects\derive\derive\constante.cpp(46): error C2664: 'const std::string Visiteur::visite(const Fois *) const' : impossible de convertir l'argument 1 de 'const Constante *const ' en 'const Variable *'
+                 Les types pointés n'ont aucun rapport entre eux ; conversion nécessitant reinterpret_cast, cast de style C ou cast de style fonction
+         Génération de code en cours...
+     1>Génération du projet "c:\Users\erba2u\Documents\Visual Studio 2013\Projects\derive\derive\derive.vcxproj" terminée (Build cible(s)) -- ÉCHEC.
+
+ÉCHEC de la build.
+
+Temps écoulé 00:00:01.23

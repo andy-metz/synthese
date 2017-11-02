@@ -1,0 +1,6 @@
+package Serveur;
+
+public class ReceveurEnvoyeur extends Thread {
+	
+
+}
